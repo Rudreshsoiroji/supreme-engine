@@ -1,0 +1,130 @@
+*{
+background-color: rgb(22, 21, 21);
+background-image: url(D:\Ashish\ash.svg);
+box-sizing: border-box;
+margin: auto;
+
+color: rgb(253, 253, 253);
+font-family: Franklin Gothic Medium;
+
+}
+body {margin: 0;
+    /*background-color: #333;*/
+}
+
+.hhr{
+  width: 95%;
+  
+}
+
+ul.topnav {
+  list-style-type: none;
+  margin-left: 2%;
+  padding: 0;
+  overflow: hidden;
+  margin-right: 20%;
+  margin-bottom: 4%;
+  background-color:rgb(22, 21, 21);
+}
+
+ul.topnav li {float: right;
+}
+
+ul.topnav li a {
+  display: block;
+  color: rgb(233, 217, 217);
+  text-align: center;
+  padding: 10px 50px;
+  text-decoration: none;
+  border-radius: 5%;
+  
+}
+
+
+ul.topnav li a:hover:not(.active) {background-color: rgb(26, 78, 12);}
+
+ul.topnav li a.active {background-color: #e5f0e5;
+color: #333;}
+
+ul.topnav li.right {float: right;}
+ul.topnav li.left {float: left;
+  display: inline;
+
+}
+.lright{
+  
+  float: right;
+}
+
+.change-my-color {
+  fill: green;
+}
+
+
+.footer {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 10px;
+  }
+
+.bot{
+    background-color: #333;
+}
+.resume{
+
+  text-align: center;
+  
+}
+
+.resume .table{
+
+  padding: 0.6%;
+  border: none;
+  text-align: left;
+  padding-left: 20%;
+}
+  .resume .table td{
+    padding: 0.9%;
+    
+  }
+  .mail{
+
+    text-decoration: none;
+   
+  }
+
+  .but1{
+    
+      background-color: #66666;
+      border:1px solid ;
+      color: white;
+      padding: 12px 30px;
+      cursor: pointer;
+      font-size: 20px;
+      
+  }
+    
+    /* Darker background on mouse-over */
+    .but1:hover {
+      background-color: #666666;
+    }
+
+.footer .social a{
+text-decoration: none;
+color:black;
+font-size: 200%;
+} 
+.footer .social a:hover{
+  z-index:3;
+  color: rgb(255, 2, 2);
+}   
+.con{
+  text-align: center;
+  padding: 20px;
+}
+
+  
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
